@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_PATH=./src nodemon --exec babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "request": "^2.88.2",
+    "rss-parser": "^3.7.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "cross-env": "^7.0.2",
+    "nodemon": "^2.0.2"
+  }
+}
